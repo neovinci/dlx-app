@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ejb-jar id="ejb-jar_ID" version="2.1"
+         xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/ejb-jar_2_1.xsd">
+    <description>EJB Reservation</description>
+    <display-name>Reservation beans</display-name>
+    <enterprise-beans>
+        <session>
+            <ejb-name>ReservationCompSv</ejb-name>
+            <home>by.epamlab.dlx.ejb.home.ReservationHome</home>
+            <remote>by.epamlab.dlx.ejb.objects.ReservationEJB</remote>
+            <ejb-class>by.epamlab.dlx.ejb.beans.ReservationBean</ejb-class>
+            <session-type>Stateless</session-type>
+            <transaction-type>Container</transaction-type>
+        </session>
+
+        <session>
+            <ejb-name>CustomerSv</ejb-name>
+            <home>by.epamlab.dlx.ejb.home.CustomerHome</home>
+            <remote>by.epamlab.dlx.ejb.objects.CustomerEJB</remote>
+            <ejb-class>by.epamlab.dlx.ejb.beans.CustomerBean</ejb-class>
+            <session-type>Stateless</session-type>
+            <transaction-type>Container</transaction-type>
+        </session>
+
+        <session>
+            <ejb-name>FareFamilySv</ejb-name>
+            <home>by.epamlab.dlx.ejb.home.FareFamilyHome</home>
+            <remote>by.epamlab.dlx.ejb.objects.FareFamilyEJB</remote>
+            <ejb-class>by.epamlab.dlx.ejb.beans.FareFamilyBean</ejb-class>
+            <session-type>Stateless</session-type>
+            <transaction-type>Container</transaction-type>
+        </session>
+    </enterprise-beans>
+</ejb-jar>
