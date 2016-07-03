@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-ear" name="ear-module:ear exploded">
+    <output-path>$PROJECT_DIR$/ear-module/target/ear-module</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="ear-module/javaeeApplication/JavaEE" />
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/ear-module/target/ear-module/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="library" level="project" name="Maven: by.epamlab.dlx:api:0.0.1-SNAPSHOT" />
+      <element id="library" level="project" name="Maven: by.epamlab.dlx:ejb:ejb:0.0.1-SNAPSHOT" />
+    </root>
+  </artifact>
+</component>

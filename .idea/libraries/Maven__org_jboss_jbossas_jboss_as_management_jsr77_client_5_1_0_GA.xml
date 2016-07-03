@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.jboss.jbossas:jboss-as-management:jsr77-client:5.1.0.GA">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jboss/jbossas/jboss-as-management/5.1.0.GA/jboss-as-management-5.1.0.GA-jsr77-client.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jboss/jbossas/jboss-as-management/5.1.0.GA/jboss-as-management-5.1.0.GA-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jboss/jbossas/jboss-as-management/5.1.0.GA/jboss-as-management-5.1.0.GA-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
