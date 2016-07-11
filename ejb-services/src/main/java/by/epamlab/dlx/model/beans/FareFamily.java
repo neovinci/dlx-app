@@ -10,6 +10,9 @@ public class FareFamily implements Serializable{
     private String fareFamilyCode;
     private List<AncillaryAirComponent> airComponents;
 
+    public FareFamily() {
+    }
+
     public FareFamily(String code) {
         this.fareFamilyCode = code;
     }

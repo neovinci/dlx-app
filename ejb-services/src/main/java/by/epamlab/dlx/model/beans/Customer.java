@@ -15,7 +15,7 @@ public class Customer implements Serializable{
     private List<Payment> payments;
 
     public Customer() {
-        this(null, null, null, null, null, null);
+
     }
 
     public Customer(String id, String firstName, String lastName, String email, String phone, List<Payment> payments) {

@@ -16,7 +16,7 @@ public class LogOutAction extends Action{
     @Override
     public ActionForward execute(ActionMapping mapping, ActionForm form, HttpServletRequest request, HttpServletResponse response) throws Exception {
         HttpSession session = request.getSession(false);
-        System.out.println(request.getServletPath());
+
         if (session != null) {
             session.invalidate();
         }

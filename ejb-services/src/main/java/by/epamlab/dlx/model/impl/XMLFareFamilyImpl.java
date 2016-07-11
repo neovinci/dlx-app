@@ -35,7 +35,6 @@ public class XMLFareFamilyImpl extends XMLAbstractClass implements IFareFamilyDA
                 Element iElement = (Element) iNode;
 
                 String componentCode = iElement.getAttribute("AncillaryAirComponentCode");
-                System.out.println(componentCode);
 
                 AncillaryAirComponent component = new AncillaryAirComponent(componentCode);
                 components.add(component);

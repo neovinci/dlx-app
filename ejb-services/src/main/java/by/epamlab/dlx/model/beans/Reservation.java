@@ -11,6 +11,9 @@ public class Reservation implements Serializable {
     private String description;
     private List<ResComponent> components;
 
+    public Reservation() {
+    }
+
     public Reservation(String code, String description, List<ResComponent> components) {
         this.code = code;
         this.description = description;
